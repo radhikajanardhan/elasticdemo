@@ -37,4 +37,5 @@ Once deployed, the URL to run the demo is http://<server ip>:<port>/ElasticDemo/
 ElasticSearch tools
 
 http://localhost:9100/ - To check if the Elastic DB is running
+
 http://localhost:9200/ - To access the Elastic head plugin
