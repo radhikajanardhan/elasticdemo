@@ -30,7 +30,7 @@ To Build:
 ---------
 gradle clean build
 
-This generates a WAR file that can be deployed into the web container.
+This generates a WAR file (./build/libs/elasticdemo.war) that can be deployed into the web container.
 
 Once deployed, the URL to run the demo is http://<server ip>:<port>/ElasticDemo/
   
