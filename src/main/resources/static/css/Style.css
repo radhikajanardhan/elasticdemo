@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+div.table { display: table; }
+div.row { display: table-row; }
+div.cell { margin-right: 15px; display: table-cell; }
+.cellSpacing { margin: 0 10px; }
+div.tableWrapper {
+    padding-right: 20px;
+    max-height: 300px;
+    display: inline-block;
+    width: 60%
+}
+.scrollBox {
+    max-height: 300px;
+    overflow: auto;
+}
+div.header { background-color: #ECE6E6; }
+.selectedRow {
+    background-color: #BDE7F2;
+}
+ul.paginationControl {
+    margin: 20px 150px 20px;
+}
+.detailsTxt {
+    height: 200px;
+    width: 100%;
+    display: block;
+    overflow: auto;
+}
+.filterBox {
+    margin: 20px 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.detailsWrapper{
+    float: right;
+    padding: 0 20px;
+    width: 40%;
+}
+
